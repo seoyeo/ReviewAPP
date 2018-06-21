@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="chen.questiong.fragment.DianZi">
+
+    <ImageButton
+        android:src="@mipmap/list1"
+        android:layout_gravity="center"
+        android:id="@+id/D_chapter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/D_chapter2"
+        android:layout_alignStart="@+id/D_chapter2" />
+
+    <ImageButton
+        android:src="@mipmap/list2"
+        android:layout_gravity="center"
+        android:id="@+id/D_chapter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/D_chapter3"
+        android:layout_alignLeft="@+id/D_chapter3"
+        android:layout_alignStart="@+id/D_chapter3"
+        android:layout_marginBottom="76dp" />
+
+    <ImageButton
+        android:src="@mipmap/list1"
+        android:layout_gravity="center"
+        android:id="@+id/D_chapter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

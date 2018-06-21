@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back2"
+    android:id="@+id/chapter3"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/three_one"
+        android:text="第一章"
+        android:background="@drawable/list_3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/three_three"
+        android:layout_alignEnd="@+id/three_three"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="9dp" />
+
+    <Button
+        android:id="@+id/three_tow"
+        android:text="第二章"
+        android:background="@drawable/list_3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/three_three"
+        android:text="第三章"
+        android:background="@drawable/list_3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp" />
+
+</RelativeLayout>

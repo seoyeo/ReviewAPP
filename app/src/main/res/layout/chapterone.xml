@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/chapter1"
+    android:background="@mipmap/back4"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <ImageButton
+        android:id="@+id/sql_A"
+        android:layout_width="350dp"
+        android:layout_height="72dp"
+        android:background="#e9a41b"
+        android:layout_above="@+id/sql_B"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:background="#2bec75"
+        android:id="@+id/sql_B"
+        android:layout_width="350dp"
+        android:layout_height="72dp"
+        android:layout_above="@+id/sql_C"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:background="#3c3c42"
+        android:id="@+id/sql_C"
+        android:layout_width="350dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="72dp"
+        android:layout_alignBottom="@+id/sql_D"
+        android:layout_alignLeft="@+id/sql_D"
+        android:layout_alignStart="@+id/sql_D" />
+
+    <ImageButton
+        android:id="@+id/sql_D"
+        android:layout_width="350dp"
+        android:layout_height="72dp"
+        android:background="#da5454"
+        android:layout_marginBottom="149dp"
+        android:layout_above="@+id/listback"
+        android:layout_alignLeft="@+id/sql_B"
+        android:layout_alignStart="@+id/sql_B" />
+
+        <ImageView
+            android:id="@+id/listback"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/pika"
+            android:layout_marginLeft="29dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="29dp"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择一个章节开始吧！"
+            android:textColor="#e90d86"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginRight="9dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="9dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

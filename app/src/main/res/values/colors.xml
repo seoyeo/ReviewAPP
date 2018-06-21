@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f20a50</color>
+    <color name="colorPrimaryDark">#f20a50</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="up">#8211ec</color>
+    <color name="down">#1b4280</color>
+    <color name="Indigo_colorPrimaryDark">#ce4003</color>
+    <color name="Indigo_colorPrimary">#ce4003</color>
+    <color name="Indigo_nav_color">#b64eeb</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="homepage">#af61a6</color>
+    <color name="nav_header">#dbc1e4
+    </color>
+    <color name="nav_header1">#add5cc</color>
+    <color name="front">#2519d5</color>
+
+    <color name="green">#12ef0e</color>
+    <color name="black">#050505</color>
+</resources>
